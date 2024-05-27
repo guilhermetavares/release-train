@@ -47,7 +47,8 @@ jobs:
           route: POST /repos/${{ github.repository }}/pulls
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
-          title: "chore: release ${{ github.ref_name }} to ${{ github.event.inputs.target }}"
+          title: |
+            chore: release ${{ github.ref_name }} to ${{ github.event.inputs.target }}
           head: ${{ steps.create_branch.outputs.branch_name }}
           base: ${{ github.event.inputs.target }}
           body: |
