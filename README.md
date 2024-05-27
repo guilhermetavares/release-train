@@ -23,3 +23,7 @@ Ajust your github token, for `PERSONAL_ACCESS_TOKEN`
     <feat/fix>: <JIRA_ID> short description
 - Squash the merge
 
+
+2. Release
+
+- Merge the release created on `create-release-pr`
