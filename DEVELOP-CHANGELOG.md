@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.2.1...develop-v1.3.0) (2024-05-27)
+
+
+### Features
+
+* change readme ([#14](https://github.com/guilhermetavares/release-train/issues/14)) ([5473bb2](https://github.com/guilhermetavares/release-train/commit/5473bb20956ad8d594d9c4b6aa25690cdfdbf65c))
+
 ## [1.2.1](https://github.com/guilhermetavares/release-train/compare/develop-v1.2.0...develop-v1.2.1) (2024-05-27)
 
 
