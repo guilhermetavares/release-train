@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/guilhermetavares/release-train/compare/develop-v1.0.0...develop-v1.0.1) (2024-05-27)
+
+
+### Bug Fixes
+
+* create release pr ([#3](https://github.com/guilhermetavares/release-train/issues/3)) ([2bf60c0](https://github.com/guilhermetavares/release-train/commit/2bf60c0709fe83a80ad5f8e351c6478fb55f1846))
+* setup changelog ([#6](https://github.com/guilhermetavares/release-train/issues/6)) ([c67f59e](https://github.com/guilhermetavares/release-train/commit/c67f59e3e14fe2213e023bc612294a6c4d204338))
+
 ## 1.0.0 (2024-05-27)
 
 
