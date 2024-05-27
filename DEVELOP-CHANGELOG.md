@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/guilhermetavares/release-train/compare/develop-v1.2.0...develop-v1.2.1) (2024-05-27)
+
+
+### Bug Fixes
+
+* ajust PR title ([823a8bf](https://github.com/guilhermetavares/release-train/commit/823a8bfc579da45c5600fa7bc72eb1e547fe8174))
+
 ## [1.2.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.1.0...develop-v1.2.0) (2024-05-27)
 
 
