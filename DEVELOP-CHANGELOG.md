@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.1.0...develop-v1.2.0) (2024-05-27)
+
+
+### Features
+
+* fix setup pr title ([#9](https://github.com/guilhermetavares/release-train/issues/9)) ([773b61a](https://github.com/guilhermetavares/release-train/commit/773b61a6ab6d8ab764b46fbd8eb1640869750660))
+
 ## [1.1.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.0.1...develop-v1.1.0) (2024-05-27)
 
 
