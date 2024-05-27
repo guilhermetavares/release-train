@@ -34,11 +34,18 @@ jobs:
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
       
+      - name: Set title
+        id: set_title
+        run: |
+          title="chore: Release ${{ github.ref_name }} to ${{ github.event.inputs.target }}"
+          echo "title=$title" >> $GITHUB_ENV
+      
       - name: echo params
         run: |
           echo ${{ github.ref_name }}
           echo ${{ github.event.inputs.target }}
           echo ${{ steps.create_branch.outputs.branch_name }}
+          echo ${{ env.title }}
 
       - name: Create Pull Request
         uses: octokit/request-action@v2.x
@@ -47,8 +54,7 @@ jobs:
           route: POST /repos/${{ github.repository }}/pulls
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
-          title: |
-            chore: release ${{ github.ref_name }} to ${{ github.event.inputs.target }}
+          title: toJSON(chore: release ${{ github.ref_name }} to ${{ github.event.inputs.target }})
           head: ${{ steps.create_branch.outputs.branch_name }}
           base: ${{ github.event.inputs.target }}
           body: |
