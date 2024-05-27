@@ -1,0 +1,57 @@
+name: create-release-pr
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Target branch to merge the PR into'
+        default: 'main'
+        required: true
+        type: choice
+        options:  # List of choices for target branch
+          - 'main'
+          - 'homolog'
+  
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-release-pr:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Create Branch
+        id: create_branch
+        uses: lablnet/create-branch-from-tag@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }}
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+      
+      - name: echo params
+        run: |
+          echo ${{ github.ref_name }}
+          echo ${{ github.event.inputs.target }}
+          echo ${{ steps.create_branch.outputs.branch_name }}
+
+      - name: Create Pull Request
+        uses: octokit/request-action@v2.x
+        id: create_pr
+        with:
+          route: POST /repos/${{ github.repository }}/pulls
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          title: chore: release ${{ github.ref_name }} to ${{ github.event.inputs.target }}
+          head: ${{ steps.create_branch.outputs.branch_name }}
+          base: ${{ github.event.inputs.target }}
+          body: |
+            This PR is automatically generated to release tag `${{ github.ref_name }}`
+            to the `${{ github.event.inputs.target }}` branch.
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
