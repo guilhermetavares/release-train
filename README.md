@@ -14,3 +14,12 @@ Copy github workflows
 - release-please.yml
 
 Ajust your github token, for `PERSONAL_ACCESS_TOKEN`
+
+
+1. Pull Requests
+
+- Open the PR
+- Edit the title using the conventional commits
+    <feat/fix>: <JIRA_ID> short description
+- Squash the merge
+
