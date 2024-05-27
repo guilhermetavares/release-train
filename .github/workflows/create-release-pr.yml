@@ -37,7 +37,7 @@ jobs:
       - name: Set title
         id: set_title
         run: |
-          title="chore: Release ${{ github.ref_name }} to ${{ github.event.inputs.target }}"
+          title="Release ${{ github.ref_name }} to ${{ github.event.inputs.target }}"
           echo "title=$title" >> $GITHUB_ENV
       
       - name: echo params
