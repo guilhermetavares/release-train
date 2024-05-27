@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/guilhermetavares/release-train/compare/homolog-v1.0.0...homolog-v1.1.0) (2024-05-27)
+
+
+### Features
+
+* XXX-0000 ajust new text ([#17](https://github.com/guilhermetavares/release-train/issues/17)) ([f8411dd](https://github.com/guilhermetavares/release-train/commit/f8411ddf1730f6cfc0b497f5ee9c3604de6ecfde))
+
 ## 1.0.0 (2024-05-27)
 
 
