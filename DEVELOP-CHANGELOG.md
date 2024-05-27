@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.3.0...develop-v1.4.0) (2024-05-27)
+
+
+### Features
+
+* XXX-0000 ajust new text ([#17](https://github.com/guilhermetavares/release-train/issues/17)) ([f8411dd](https://github.com/guilhermetavares/release-train/commit/f8411ddf1730f6cfc0b497f5ee9c3604de6ecfde))
+
 ## [1.3.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.2.1...develop-v1.3.0) (2024-05-27)
 
 
