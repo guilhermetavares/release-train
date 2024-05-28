@@ -1,0 +1,44 @@
+name: Main
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build and publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Get short SHA
+        id: slug
+        run: echo "::set-output name=sha8::$(echo ${GITHUB_SHA} | cut -c1-8)"
+      
+      - name: get docker version
+        id: ref_check
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            echo "::set-output name=type::tag"
+            TAG_NAME=$(echo ${GITHUB_REF} | sed 's/refs\/tags\///')
+            echo "::set-output name=docker_version::${TAG_NAME}"
+            echo "::set-output name=tag_name::${TAG_NAME}"
+          else
+            echo "::set-output name=type::branch"
+            BRANCH_NAME=${GITHUB_REF_NAME}
+            echo "::set-output name=docker_version::${BRANCH_NAME}"
+            echo "::set-output name=branch_name::${BRANCH_NAME}"
+          fi
+
+      - name: Echo
+        run: |
+          echo ${{ steps.slug.outputs.sha8 }}
+          echo ${{ steps.ref_check.outputs.docker_version }}
+          echo ${{ steps.ref_check.outputs.tag_name }}
+          echo ${{ steps.ref_check.outputs.branch_name }}
+          echo ${{ github.ref_name }}
+          echo ${GITHUB_REF}
