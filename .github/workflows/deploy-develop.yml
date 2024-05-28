@@ -3,7 +3,7 @@ name: Homologation
 on:
   push:
     tags:
-      - 'v*'
+      - 'develop-v*'
   workflow_dispatch:
 
 jobs:
