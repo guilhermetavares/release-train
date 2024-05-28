@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - homolog
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - uses: google-github-actions/release-please-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        with:
+          target-branch: ${{ github.ref_name }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          manifest-file: manifest-${{ github.ref_name }}.json
+          config-file: .release-please-${{ github.ref_name }}-config.json
