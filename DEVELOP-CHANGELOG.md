@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.4.0...develop-v1.5.0) (2024-05-28)
+
+
+### Features
+
+* Feat/test deploy yml ([#21](https://github.com/guilhermetavares/release-train/issues/21)) ([4efcbd3](https://github.com/guilhermetavares/release-train/commit/4efcbd351bea2f3727f9af79da5702e007af79c5))
+
 ## [1.4.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.3.0...develop-v1.4.0) (2024-05-27)
 
 
