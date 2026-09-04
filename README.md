@@ -28,3 +28,5 @@ Ajust your github token, for `PERSONAL_ACCESS_TOKEN`
 
 - Merge the release created on `create-release-pr`
 
+
+3. Setup ypur conventional commits patterns
