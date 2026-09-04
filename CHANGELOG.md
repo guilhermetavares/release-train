@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/guilhermetavares/release-train/compare/v1.0.0...v1.1.0) (2026-09-04)
+
+
+### Features
+
+* Release develop-v1.5.1 to main ([a42d6cc](https://github.com/guilhermetavares/release-train/commit/a42d6ccdc51c6a67a15b193737d519cb9a61baf4))
+* Release develop-v1.5.1 to main ([a42d6cc](https://github.com/guilhermetavares/release-train/commit/a42d6ccdc51c6a67a15b193737d519cb9a61baf4))
+
+
+### Bug Fixes
+
+* push commits ([#27](https://github.com/guilhermetavares/release-train/issues/27)) ([47f0c3f](https://github.com/guilhermetavares/release-train/commit/47f0c3fdb0a341756a79a74c8dffb880163de902))
+
 ## 1.0.0 (2024-05-28)
 
 
