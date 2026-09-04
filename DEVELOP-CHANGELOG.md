@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/guilhermetavares/release-train/compare/develop-v1.5.0...develop-v1.5.1) (2026-09-04)
+
+
+### Bug Fixes
+
+* push commits ([#27](https://github.com/guilhermetavares/release-train/issues/27)) ([47f0c3f](https://github.com/guilhermetavares/release-train/commit/47f0c3fdb0a341756a79a74c8dffb880163de902))
+
 ## [1.5.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.4.0...develop-v1.5.0) (2024-05-28)
 
 
