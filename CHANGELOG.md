@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/guilhermetavares/release-train/compare/v1.1.0...v1.2.0) (2026-09-09)
+
+
+### Features
+
+* release develop-v1.5.2 to main ([78ebc3b](https://github.com/guilhermetavares/release-train/commit/78ebc3b16f368513fe17ed2299d5e64c0efc693d))
+* release develop-v1.5.2 to main ([78ebc3b](https://github.com/guilhermetavares/release-train/commit/78ebc3b16f368513fe17ed2299d5e64c0efc693d))
+
+
+### Bug Fixes
+
+* ajust placebo ([#26](https://github.com/guilhermetavares/release-train/issues/26)) ([d15fb09](https://github.com/guilhermetavares/release-train/commit/d15fb0908bd7bcf2233ca80dda05a1c5f47ca95d))
+* linha adicionac ([#25](https://github.com/guilhermetavares/release-train/issues/25)) ([b78b024](https://github.com/guilhermetavares/release-train/commit/b78b024e123dd7a0bf428096b8d3090484a17418))
+
 ## [1.1.0](https://github.com/guilhermetavares/release-train/compare/v1.0.0...v1.1.0) (2026-09-04)
 
 
