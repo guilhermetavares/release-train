@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.2](https://github.com/guilhermetavares/release-train/compare/develop-v1.5.1...develop-v1.5.2) (2026-09-09)
+
+
+### Bug Fixes
+
+* ajust placebo ([#26](https://github.com/guilhermetavares/release-train/issues/26)) ([d15fb09](https://github.com/guilhermetavares/release-train/commit/d15fb0908bd7bcf2233ca80dda05a1c5f47ca95d))
+* linha adicionac ([#25](https://github.com/guilhermetavares/release-train/issues/25)) ([b78b024](https://github.com/guilhermetavares/release-train/commit/b78b024e123dd7a0bf428096b8d3090484a17418))
+
 ## [1.5.1](https://github.com/guilhermetavares/release-train/compare/develop-v1.5.0...develop-v1.5.1) (2026-09-04)
 
 
