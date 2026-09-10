@@ -4,6 +4,7 @@ on:
       - main
       - develop
       - homolog
+      - dev
 
 permissions:
   contents: write
