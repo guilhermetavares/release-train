@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/guilhermetavares/release-train/compare/develop-v1.5.2...develop-v1.6.0) (2026-09-10)
+
+
+### Features
+
+* add new tags ([86dac87](https://github.com/guilhermetavares/release-train/commit/86dac8749b2e0b5dbb5e44313c5c5312f5e65eef))
+
+
+### Bug Fixes
+
+* add release please to dev ([1ce05e2](https://github.com/guilhermetavares/release-train/commit/1ce05e288857ce65f00f6155a167a86ccfb6ab2f))
+
 ## [1.5.2](https://github.com/guilhermetavares/release-train/compare/develop-v1.5.1...develop-v1.5.2) (2026-09-09)
 
 
