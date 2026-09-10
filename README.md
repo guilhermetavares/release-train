@@ -27,3 +27,7 @@ Ajust your github token, for `PERSONAL_ACCESS_TOKEN`
 2. Release
 
 - Merge the release created on `create-release-pr`
+
+
+3. Tags and Setups
+- New tags available on Relase
