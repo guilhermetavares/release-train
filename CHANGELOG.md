@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/guilhermetavares/release-train/compare/v1.2.0...v1.3.0) (2026-09-10)
+
+
+### Features
+
+* add new tags ([86dac87](https://github.com/guilhermetavares/release-train/commit/86dac8749b2e0b5dbb5e44313c5c5312f5e65eef))
+
+
+### Bug Fixes
+
+* add release please to dev ([1ce05e2](https://github.com/guilhermetavares/release-train/commit/1ce05e288857ce65f00f6155a167a86ccfb6ab2f))
+
 ## [1.2.0](https://github.com/guilhermetavares/release-train/compare/v1.1.0...v1.2.0) (2026-09-09)
 
 
